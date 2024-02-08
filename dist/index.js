@@ -30799,6 +30799,8 @@ const github = __nccwpck_require__(7133)
 
 const myToken = core.getInput('myToken')
 const octokit = github.getOctokit(myToken)
+console.log(myToken)
+console.log(octokit)
 
 async function createComment(owner, repo, pullNumber, message) {
     try {
