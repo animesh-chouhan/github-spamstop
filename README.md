@@ -33,3 +33,14 @@ jobs:
 ```
 
 Check out [GitHub's documentation](https://help.github.com/en/articles/configuring-a-workflow) to read more about adding GitHub Action workflows to your GitHub repositories.
+
+## References
+
+<https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action>
+<https://docs.github.com/en/actions>
+<https://www.npmjs.com/package/@actions/github>
+<https://docs.github.com/en/actions/using-workflows>
+<https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request>
+<https://github.com/github/docs/blob/main/.github/workflows/check-for-spammy-issues.yml>
+<https://github.com/actions/javascript-action>
+<https://github.com/actions/toolkit/tree/main/packages/github>
