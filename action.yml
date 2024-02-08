@@ -1,7 +1,10 @@
 name: 'GitHub SpamStop'
 author: 'animesh-chouhan'
 description: 'A customizable GitHub action to reduce spam Issues and PRs'
-
+inputs:
+  myToken:
+    description: 'GitHub token'
+    required: true
 runs:
   using: 'node20'
   main: 'dist/index.js'
