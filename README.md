@@ -1,7 +1,7 @@
 # github-spamstop
 
 Prevent PR and Issue spam on GitHub based on customizable rules
-
+sdfgsd
 ## Usage
 
 Add a workflow to your GitHub repository that contains this information:
