@@ -9,7 +9,7 @@ console.log(octokit)
 
 async function createComment(owner, repo, pullNumber, message) {
     try {
-        octokit.issues.createComment({
+        octokit.rest.issues.createComment({
             owner: owner,
             repo: repo,
             issue_number: pullNumber,
@@ -22,7 +22,7 @@ async function createComment(owner, repo, pullNumber, message) {
 
 async function closeIssue(owner, repo, pullNumber) {
     try {
-        octokit.pulls.update({
+        octokit.rest.pulls.update({
             owner: owner,
             repo: repo,
             pull_number: pullNumber,
@@ -62,7 +62,8 @@ async function run() {
         if (spamFlag) {
             await createComment(owner, repo, prNumber, "Marked as spam. Closing pull request.")
             await closeIssue(owner, repo, prNumber)
-            console.log("Spam found. Closing PR.")
+            const message = "Spam found. Closing PR."
+            core.setFailed(message)
         }
 
     } catch (error) {
