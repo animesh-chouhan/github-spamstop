@@ -3,7 +3,7 @@
 Prevent PR and Issue spam on GitHub based on customizable rules
 
 ## Usage
-
+dfdf
 Follow this [GitHub guide](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action) to create your own custom actions.
 
 Edit `index.js` in the root folder and then follow this [guide](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action#commit-tag-and-push-your-action-to-github) to compile your code.
