@@ -4,8 +4,6 @@ const github = require('@actions/github')
 
 const myToken = core.getInput('myToken')
 const octokit = github.getOctokit(myToken)
-console.log(myToken)
-console.log(octokit)
 
 async function createComment(owner, repo, pullNumber, message) {
     try {
