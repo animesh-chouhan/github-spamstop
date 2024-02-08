@@ -3,15 +3,15 @@
 This template has been taken from this github repo: https://github.com/stevemao/github-issue-templates/blob/master/checklist/PULL_REQUEST_TEMPLATE.md
  -->
 
-### Summary
+## Summary
 
 This Pull Request has been created because [REPLACE ME]
 
-### Description
+## Description
 
 Describe the changes in detail [REPLACE ME]
 
-### Checklist
+## Checklist
 
 Before submitting the PR make sure the following are checked:
 
