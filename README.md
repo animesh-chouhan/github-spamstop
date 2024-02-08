@@ -18,7 +18,7 @@ jobs:
   github_spamstop_job:
     runs-on: ubuntu-latest
     name: A job to detect spam PR
-    steps:
+    steps:dsfdfs
       - name: Detect Spam PR
         uses: animesh-chouhan/github-spamstop@main
 ```
