@@ -30856,7 +30856,10 @@ async function run() {
             await createComment(owner, repo, prNumber, "Marked as spam. Closing pull request.")
             await closeIssue(owner, repo, prNumber)
             const message = "Spam found. Closing PR."
+            console.log(message)
             core.setFailed(message)
+        } else {
+            console.log("No spam detected")
         }
 
     } catch (error) {
