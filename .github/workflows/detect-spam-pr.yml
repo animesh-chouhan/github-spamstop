@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: Detect Spam PR
         uses: animesh-chouhan/github-spamstop@main
+        with:
+          myToken: ${{ secrets.GITHUB_TOKEN }}

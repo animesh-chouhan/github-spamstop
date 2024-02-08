@@ -5,11 +5,11 @@ This template has been taken from this github repo: https://github.com/stevemao/
 
 ## Summary
 
-This Pull Request has been created because [REPLACE ME]
+This Pull Request has been created because [REPLACE_ME]
 
 ## Description
 
-Describe the changes in detail [REPLACE ME]
+Describe the changes in detail [REPLACE_ME]
 
 ## Checklist
 
