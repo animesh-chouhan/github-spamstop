@@ -4,6 +4,7 @@ Prevent PR and Issue spam on GitHub based on customizable rules
 
 ## Motivation
 
+- [Express.js PR spam](https://github.com/expressjs/express/pulls?page=1&q=is%3Apr+is%3Aclosed+Readme.md)
 - [This Tweet](https://twitter.com/t3dotgg/status/1754954663710126305)
 - [Don't Contribute to Open Source](https://www.youtube.com/watch?v=5nY_cy8zcO4)
 - [Open source README drama](https://www.youtube.com/watch?v=7Thqw58L8gw)
