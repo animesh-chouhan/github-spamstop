@@ -1,6 +1,9 @@
 // https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
-const core = require('@actions/core');
-const github = require('@actions/github');
+const core = require('@actions/core')
+const github = require('@actions/github')
+
+const myToken = core.getInput('myToken')
+const octokit = github.getOctokit(myToken)
 
 async function createComment(owner, repo, pullNumber, message) {
     try {
@@ -30,13 +33,10 @@ async function closeIssue(owner, repo, pullNumber) {
 
 async function run() {
     try {
-        const myToken = core.getInput('myToken');
-        const octokit = github.getOctokit(myToken)
-        console.log("Detecting spam");
+        console.log("Detecting spam")
         // Get the JSON webhook payload for the event that triggered the workflow
         // const payload = JSON.stringify(github.context.payload, undefined, 2)
         // console.log(`The event payload: ${payload}`);
-
         const repository = github.context.payload.repository
         const owner = repository.owner.login
         const repo = repository.name
@@ -60,6 +60,7 @@ async function run() {
         if (spamFlag) {
             await createComment(owner, repo, prNumber, "Marked as spam. Closing pull request.")
             await closeIssue(owner, repo, prNumber)
+            console.log("Spam found. Closing PR.")
         }
 
     } catch (error) {
