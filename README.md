@@ -43,11 +43,13 @@ Check out [GitHub's documentation](https://help.github.com/en/articles/configuri
 
 ## References
 
-<https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action>
-<https://docs.github.com/en/actions>
-<https://www.npmjs.com/package/@actions/github>
-<https://docs.github.com/en/actions/using-workflows>
-<https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request>
-<https://github.com/github/docs/blob/main/.github/workflows/check-for-spammy-issues.yml>
-<https://github.com/actions/javascript-action>
-<https://github.com/actions/toolkit/tree/main/packages/github>
+1. <https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action>
+2. <https://docs.github.com/en/actions>
+3. <https://www.npmjs.com/package/@actions/github>
+4. <https://docs.github.com/en/actions/using-workflows>
+5. <https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request>
+6. <https://github.com/github/docs/blob/main/.github/workflows/check-for-spammy-issues.yml>
+7. <https://github.com/actions/javascript-action>
+8. <https://github.com/actions/toolkit/tree/main/packages/github>
+9. <https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs>
+10. <https://docs.github.com/en/rest/authentication/permissions-required-for-github-apps?apiVersion=2022-11-28#repository-permissions-for-pull-requests>
